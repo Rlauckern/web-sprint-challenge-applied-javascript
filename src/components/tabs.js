@@ -1,5 +1,18 @@
+import axios from "axios";
+
 const Tabs = (topics) => {
-  // TASK 3
+  const topicsDiv = document.createElement('div');
+  topicsDiv.classList.add('topics');
+
+  topics.forEach(topic => {
+    const topicTab = document.createElement('div');
+    topicTab.classList.add('tab');
+    topicTab.textContent = topic;
+    topicsDiv.appendChild(topicTab);
+  })
+
+  return topicsDiv;
+
   // ---------------------
   // Implement this function which takes an array of strings ("topics") as its only argument.
   // As an example, if the topics passed are ['javascript', 'bootstrap', 'technology']
