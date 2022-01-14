@@ -60,7 +60,24 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+
+Ths DOM is the document Object Model. The browser sorts through the html as a blueprint for how to build a page. then goes through the css and finally the browsern builds a model for the page's look using javaScript. This model is a javaScript Object that we refer to as the DOM.
+
 2. What is an event?
+
+Every user interaction with the page is referred to as an event. Thats the click of a mouse, scrolling on the page, dragging over an element, etc..
+
 3. What is an event listener?
+
+The addEventListener() method attaches an event handler to the specified element.
+The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.
+You can add many event handlers to one element.
+
 4. Why would we convert a NodeList into an Array?
+
+To be able to use forEach, array.filter.... etc
+
 5. What is a component?
+
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+
